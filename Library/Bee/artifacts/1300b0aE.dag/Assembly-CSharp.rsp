@@ -363,6 +363,8 @@
 "Assets/Scripts/Environment/LevelBoundary.cs"
 "Assets/Scripts/Environment/LevelStarted.cs"
 "Assets/Scripts/Environment/ObstacleCollision.cs"
+"Assets/Scripts/Main Menu/SceneLoader.cs"
+"Assets/Scripts/Player/PlayerJump.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 -langversion:9.0
 

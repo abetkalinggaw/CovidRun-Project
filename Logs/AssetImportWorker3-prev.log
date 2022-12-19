@@ -15,7 +15,7 @@ D:/KULYEAH/5/GAME DESIGN/[PROJECT]/DESGA-PROJ
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56072
+58971
 Successfully changed project path to: D:/KULYEAH/5/GAME DESIGN/[PROJECT]/DESGA-PROJ
 D:/KULYEAH/5/GAME DESIGN/[PROJECT]/DESGA-PROJ
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/KULYEAH/5/GAME DESIGN/[PROJECT]/DESGA-PROJ
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 87.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,255 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008813 seconds.
+Registered in 0.009006 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 78.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
+- Completed reload, in  0.693 seconds
 Domain Reload Profiling:
-	ReloadAssembly (663ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (693ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (466ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (107ms)
+			SetupTypeCache (114ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (62ms)
+				InitializePlatformSupportModulesInManaged (65ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003703 seconds.
+Registered in 0.003812 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\KULYEAH\5\GAME DESIGN\[PROJECT]\DESGA-PROJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\KULYEAH\5\GAME DESIGN\[PROJECT]\DESGA-PROJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
+- Completed reload, in  1.264 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1104ms)
-		BeginReloadAssembly (219ms)
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (127ms)
-		EndReloadAssembly (771ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (299ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (350ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (400ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3842.
-Memory consumption went from 116.5 MB to 116.4 MB.
-Total: 3.517400 ms (FindLiveObjects: 0.423500 ms CreateObjectMapping: 0.189100 ms MarkObjects: 2.783500 ms  DeleteObjects: 0.119200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 145646.818649 seconds.
-  path: Assets/Palmov Island/Environments/Prefabs/Garden/pumpkin.prefab
-  artifactKey: Guid(580d24e56948b490598ab382c0b4d7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Environments/Prefabs/Garden/pumpkin.prefab using Guid(580d24e56948b490598ab382c0b4d7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6aef5c5e37055cae83a8c53358f0e88') in 0.137006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.922585 seconds.
-  path: Assets/Palmov Island/Environments/Prefabs/Grasses/shrub.prefab
-  artifactKey: Guid(1f3eda802988747c298e2d0a5c729760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Environments/Prefabs/Grasses/shrub.prefab using Guid(1f3eda802988747c298e2d0a5c729760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550f847310b6303aad1531ec88cb05a8') in 0.022839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.869669 seconds.
-  path: Assets/Palmov Island/Environments/Prefabs/Houses/house_small.prefab
-  artifactKey: Guid(9746979f59e694feab90f89d54d783b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Environments/Prefabs/Houses/house_small.prefab using Guid(9746979f59e694feab90f89d54d783b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f48e26a3a2414eb13d960d02b0bd25') in 0.024212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Palmov Island/Environments/Prefabs/Houses/supermarket.prefab
-  artifactKey: Guid(3ef7289946b204a5793aa0a6014e4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Environments/Prefabs/Houses/supermarket.prefab using Guid(3ef7289946b204a5793aa0a6014e4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4787e75a0caa81937e3a9f784d6a8ff5') in 0.025802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.334259 seconds.
-  path: Assets/Palmov Island/Environments/Prefabs/Roads/grass_with_soil_area.prefab
-  artifactKey: Guid(fc958925259a74dbd9512eda4f8ded4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Environments/Prefabs/Roads/grass_with_soil_area.prefab using Guid(fc958925259a74dbd9512eda4f8ded4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38672799924acd2200c6d54e487fb6c') in 0.023123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Palmov Island/Environments/Prefabs/Roads/paved_road_markings_straight_area_1.prefab
-  artifactKey: Guid(91f37005e8ce642dea4d711a3e6db19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Environments/Prefabs/Roads/paved_road_markings_straight_area_1.prefab using Guid(91f37005e8ce642dea4d711a3e6db19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c962550c24bd6a3c2d70d2a24ee8e4e') in 0.023647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.327260 seconds.
-  path: Assets/Palmov Island/Environments/Prefabs/Stones/stone_2.prefab
-  artifactKey: Guid(cbc1d3b7475814f20818245d9e54aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Environments/Prefabs/Stones/stone_2.prefab using Guid(cbc1d3b7475814f20818245d9e54aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21ff1cc652b08ba6ca8ca80ed2e09c9') in 0.022800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 758.251568 seconds.
-  path: Assets/Environments/Road Props/Prefabs/BarrierFence2.prefab
-  artifactKey: Guid(11318eb3fe3cac2499159d6a437003b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/BarrierFence2.prefab using Guid(11318eb3fe3cac2499159d6a437003b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bb5e57378e4f1cba9cdc569430b432') in 0.289161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Environments/Road Props/Prefabs/RoadSign_A_circle.prefab
-  artifactKey: Guid(928e50c8b9894f240ba955510cd27a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/RoadSign_A_circle.prefab using Guid(928e50c8b9894f240ba955510cd27a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff901434d56550b631350847f16848b3') in 0.050898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Environments/Road Props/Prefabs/PlasticSignalBollard.prefab
-  artifactKey: Guid(34022bcfac40ad346bb28a79eb0633a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/PlasticSignalBollard.prefab using Guid(34022bcfac40ad346bb28a79eb0633a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e120514b4ccc9b0a3bebb018f5a93080') in 0.047158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Environments/Road Props/Prefabs/RoadSign_Polygon.prefab
-  artifactKey: Guid(e266d6ed9b3709f41b0949f2a74df43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/RoadSign_Polygon.prefab using Guid(e266d6ed9b3709f41b0949f2a74df43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ad32cd8091302f7a9ca686a5bc4d58') in 0.053091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Environments/Road Props/Prefabs/Border_2.prefab
-  artifactKey: Guid(fc582eed26eac614aa97a405f2262f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/Border_2.prefab using Guid(fc582eed26eac614aa97a405f2262f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bb5d94549a51045a7fab661857a642') in 0.051654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Environments/Road Props/Prefabs/PlasticSignalBollard_2.prefab
-  artifactKey: Guid(e55a93b49644cee4298cccddca28c23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/PlasticSignalBollard_2.prefab using Guid(e55a93b49644cee4298cccddca28c23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ce87f09eb1c5b05065c495582ed825') in 0.057242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Environments/Road Props/Prefabs/RoadSign_Triangular.prefab
-  artifactKey: Guid(991bd483bb1fa094dba41f2e63cddcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/RoadSign_Triangular.prefab using Guid(991bd483bb1fa094dba41f2e63cddcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1353e56a72afd7ad1a3fdc2aea6d0e23') in 0.064173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Environments/Road Props/Prefabs/SpeedBump_2.prefab
-  artifactKey: Guid(c603bc22da7616940a7335d202551fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/SpeedBump_2.prefab using Guid(c603bc22da7616940a7335d202551fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65eb8b28d192c8c70d106b81948b1f9') in 0.057778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Environments/Road Props/Prefabs/Urn.prefab
-  artifactKey: Guid(52a35d16d1a76e74d8003dc1ca5c4c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/Urn.prefab using Guid(52a35d16d1a76e74d8003dc1ca5c4c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc287609b90f6349ecddd41183556608') in 0.058263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Environments/Road Props/Prefabs/Benche.prefab
-  artifactKey: Guid(f0555a17cdff7dc43ab632954479231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Road Props/Prefabs/Benche.prefab using Guid(f0555a17cdff7dc43ab632954479231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7bd8a366166caab5e31f0cdf8b185a') in 0.057967 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004658 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\KULYEAH\5\GAME DESIGN\[PROJECT]\DESGA-PROJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\KULYEAH\5\GAME DESIGN\[PROJECT]\DESGA-PROJ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1052ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (799ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3338 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.9 KB). Loaded Objects now: 3858.
-Memory consumption went from 120.5 MB to 120.4 MB.
-Total: 4.664900 ms (FindLiveObjects: 0.444300 ms CreateObjectMapping: 0.112600 ms MarkObjects: 3.999400 ms  DeleteObjects: 0.107100 ms)
+Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.0 KB). Loaded Objects now: 3829.
+Memory consumption went from 130.7 MB to 130.5 MB.
+Total: 3.332800 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.083700 ms MarkObjects: 2.737400 ms  DeleteObjects: 0.188000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -325,82 +165,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 670.905928 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Models/Border.FBX
-  artifactKey: Guid(7172fe89d4915a44d9490c9af472b99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Models/Border.FBX using Guid(7172fe89d4915a44d9490c9af472b99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba5421b5f5dd879460615008b089fe2') in 0.114623 seconds 
+  Time since last request: 270797.694771 seconds.
+  path: Assets/UI/Puzzle stage & settings GUI Pack/Image_red/bar.png
+  artifactKey: Guid(b0add21f966f0cd498a4880b53be17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Puzzle stage & settings GUI Pack/Image_red/bar.png using Guid(b0add21f966f0cd498a4880b53be17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2f3e0b0a686fc915f54428a7be7261') in 0.138975 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Models/Building_10.FBX
-  artifactKey: Guid(ed390f24d24647f48aad4660a412247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Models/Building_10.FBX using Guid(ed390f24d24647f48aad4660a412247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f36a230add6b8dcdc96de71b85471a4') in 0.100808 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/Puzzle stage & settings GUI Pack/Image_red/jelly.png
+  artifactKey: Guid(a09b81883fd657243ae113396d6d132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Puzzle stage & settings GUI Pack/Image_red/jelly.png using Guid(a09b81883fd657243ae113396d6d132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49e02be2327eb2b7a159ed6df84e535') in 0.039524 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.069448 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Textures/Brick_walls_2.tif
-  artifactKey: Guid(37b11d6fda5d94340ad104117054809b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Textures/Brick_walls_2.tif using Guid(37b11d6fda5d94340ad104117054809b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af77476e29b23e2af2d6335fa25ad99') in 0.044761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Textures/Palms.tif
-  artifactKey: Guid(1b32f89d4f708c8459a00ff3d9c56d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Textures/Palms.tif using Guid(1b32f89d4f708c8459a00ff3d9c56d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62799ba17b52e9fa544e9dbe1dcb9ca2') in 0.030836 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/UI/Puzzle stage & settings GUI Pack/Image_red/star box.png
+  artifactKey: Guid(2a1b8b0c57e6e5f4a94da8ead1ed0496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Puzzle stage & settings GUI Pack/Image_red/star box.png using Guid(2a1b8b0c57e6e5f4a94da8ead1ed0496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f689875b533fd742b157b9d5b7339e5') in 0.058966 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000050 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Textures/Plinth_1.tif
-  artifactKey: Guid(96da953678f38954aabb9d67944218c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Textures/Plinth_1.tif using Guid(96da953678f38954aabb9d67944218c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080e330917ce5bff156e241ab85babd3') in 0.022427 seconds 
+  path: Assets/UI/Puzzle stage & settings GUI Pack/Image_red/stage.png
+  artifactKey: Guid(b5a1421c794b0b44dabc0ac142225fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Puzzle stage & settings GUI Pack/Image_red/stage.png using Guid(b5a1421c794b0b44dabc0ac142225fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfba0228675ca6d11f2752e450b4b022') in 0.028043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Textures/Shutters.tif
-  artifactKey: Guid(632d7653936b8504593a26b874db2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Textures/Shutters.tif using Guid(632d7653936b8504593a26b874db2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c303aaf3486b1de7ba558383ff81bf') in 0.024767 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Puzzle stage & settings GUI Pack/Image_red/goods coin.png
+  artifactKey: Guid(40824727f84f86b49b379f1ed9a1f7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Puzzle stage & settings GUI Pack/Image_red/goods coin.png using Guid(40824727f84f86b49b379f1ed9a1f7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af15ef3388de74f26a6472a089f9185b') in 0.074018 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Textures/Windows.tif
-  artifactKey: Guid(f74af5b21828cfb4fa656de4b9ee90b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Textures/Windows.tif using Guid(f74af5b21828cfb4fa656de4b9ee90b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4a05971cb7e39e1824cf1141258081') in 0.031137 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/Puzzle stage & settings GUI Pack/Image_red/goods jelly.png
+  artifactKey: Guid(0b7d24aa5c71add4dbfdd85f131667f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Puzzle stage & settings GUI Pack/Image_red/goods jelly.png using Guid(0b7d24aa5c71add4dbfdd85f131667f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522a2966fcee77f4b62c5e20eed7cf12') in 0.065864 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Textures/Tile_1.tif
-  artifactKey: Guid(290bc24ccb6ead547914313786fece4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Textures/Tile_1.tif using Guid(290bc24ccb6ead547914313786fece4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a5a3603d63ed820b991e2c53bf02fe') in 0.024310 seconds 
+  Time since last request: 3.251078 seconds.
+  path: Assets/UI/Puzzle stage & settings GUI Pack/Image_red/b/ok.png
+  artifactKey: Guid(2a9f0280ab5da454a92b4073e620c765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Puzzle stage & settings GUI Pack/Image_red/b/ok.png using Guid(2a9f0280ab5da454a92b4073e620c765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4165ee7875f9609a094196028e1001') in 0.130090 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Textures/Walls_2_3.tif
-  artifactKey: Guid(697717c0bac7ad24589135ff4b961ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Textures/Walls_2_3.tif using Guid(697717c0bac7ad24589135ff4b961ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf066838596d500b1fa53f03d0c894c') in 0.022820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.412218 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Prefabs/Border.prefab
-  artifactKey: Guid(66b0275cee2373c448373f0fdbbce7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Prefabs/Border.prefab using Guid(66b0275cee2373c448373f0fdbbce7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172f297f0b0010a2fe5c19ae1630a932') in 0.022861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Prefabs/Wall_clumb.prefab
-  artifactKey: Guid(a493dbe51f7dff9479d33117838b83c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Prefabs/Wall_clumb.prefab using Guid(a493dbe51f7dff9479d33117838b83c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca7d0e90dc643d8c41366d740088b4c') in 0.169174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Prefabs/Shutter_4.prefab
-  artifactKey: Guid(00a23d00e0c70f24ab84247148cde703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Prefabs/Shutter_4.prefab using Guid(00a23d00e0c70f24ab84247148cde703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace1bf1f4a149c7dfb9f2ccb6efe759f') in 0.025120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Environments/Lowpoly_Holiday_House/Prefabs/Clumb.prefab
-  artifactKey: Guid(1f0e3563c5d63ae488c8f85514a5a61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environments/Lowpoly_Holiday_House/Prefabs/Clumb.prefab using Guid(1f0e3563c5d63ae488c8f85514a5a61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0abcde820de3a358f2db536e52fb6d') in 0.034684 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/Puzzle stage & settings GUI Pack/Image_red/b/setting.png
+  artifactKey: Guid(39a053ff0928ecb4caed6119fdef2ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Puzzle stage & settings GUI Pack/Image_red/b/setting.png using Guid(39a053ff0928ecb4caed6119fdef2ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9f631dbf5bf4d5621c293d2719dd50') in 0.090616 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

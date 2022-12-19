@@ -16,7 +16,7 @@ public class LevelStarted : MonoBehaviour
     }
 
     IEnumerator CountSequence()
-    {
+    {   
         yield return new WaitForSeconds(1.25f);
         countDown3.SetActive(true);
         yield return new WaitForSeconds(1f);
