@@ -314,6 +314,7 @@
 "Assets/Environments/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs"
 "Assets/Scripts/Collectibles/CollectCoin.cs"
 "Assets/Scripts/Collectibles/RotateObject.cs"
+"Assets/Scripts/Collectibles/ScoreManager.cs"
 "Assets/Scripts/Environment/GenerateLevel.cs"
 "Assets/Scripts/Environment/LevelBoundary.cs"
 "Assets/Scripts/Environment/LevelStarted.cs"
@@ -322,6 +323,7 @@
 "Assets/Scripts/Main Menu/SceneLoader.cs"
 "Assets/Scripts/Player/PlayerJump.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/PlayerManager.cs"
 -langversion:9.0
 
 /deterministic

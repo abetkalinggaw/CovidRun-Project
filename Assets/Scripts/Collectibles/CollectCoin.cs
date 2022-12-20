@@ -10,5 +10,6 @@ public class CollectCoin : MonoBehaviour
     {
         coinFX.Play();
         this.gameObject.SetActive(false);
+        ScoreManager.instance.AddPoint();
     }
 }

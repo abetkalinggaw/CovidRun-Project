@@ -10,6 +10,7 @@ public class LevelStarted : MonoBehaviour
     public GameObject countDownGo;
     public GameObject fadeIn;
 
+
     void Start()
     {
         StartCoroutine(CountSequence());
@@ -25,6 +26,7 @@ public class LevelStarted : MonoBehaviour
         countDown1.SetActive(true);
         yield return new WaitForSeconds(1f);
         countDownGo.SetActive(true);
+
         PlayerMovement.canMove = true;
     }
 }
